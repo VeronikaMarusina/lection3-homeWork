@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+.container {
+    text-align: center;
+  }
+
+.title{
+      display: inline;
+      font-size: 22px;
+  }
+
+input {  
+      display: inline-block;
+      font-size: 22px;
+      padding: 0 5px;
+      margin: 0 10px;
+      width: 600px;
+  }
+        
+.btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.main-block {
+    position: relative;
+    height: auto;
+    width: 900px;
+    padding-top: 50px;
+  }
+
+  .output{
+      margin: 30px 10px;
+      text-align: center;
+      font-size: 24px;
+  }
+
+  .input{
+    text-align: center;
+    margin: auto;
+  }
